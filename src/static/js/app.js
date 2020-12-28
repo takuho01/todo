@@ -3,6 +3,9 @@ function App() {
     return (
         <Container>
             <Row>
+                <h1>TODO app</h1>
+            </Row> 
+            <Row>
                 <h1>hoge</h1>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
@@ -91,7 +94,6 @@ function AddItemForm({ onNewItem }) {
     };
 
     return (
-        <h1>aho</h1>
         <Form onSubmit={submitNewItem}>
             <InputGroup className="mb-3">
                 <Form.Control
